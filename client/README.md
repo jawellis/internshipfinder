@@ -51,4 +51,7 @@ The client runs at `http://localhost:5173` and the server at `http://localhost:8
 - Server decides when to call external internship API based on user input.
 - Streaming of AI replies is added for a more natural feel, but only applies to normal text and not internship generating. 
 
+## Unsolved issues
+- AI will only fetch from API if it doesn't leave room for any other questions
+- AI is unable to understand follow-up questions
 
